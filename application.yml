@@ -7,6 +7,7 @@ management:
          show-details: always
 
 logging:
+   pattern: "%msg%n"
    level:
       root: INFO
       com:
