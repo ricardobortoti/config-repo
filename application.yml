@@ -5,7 +5,9 @@ management:
    endpoint:
       health:
          show-details: always
-         
+
 logging:
    level:
-      root: DEBUG
+      root: INFO
+      com:
+         example: DEBUG
