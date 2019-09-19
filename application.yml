@@ -8,7 +8,7 @@ management:
 
 logging:
    pattern:
-      console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %magenta([%thread]) %red(%X{traceID}) %blue(%X{X-NewRelic-Transaction}) %highlight(%-5level) %logger{39} - %msg%n"
+      console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %magenta([%thread]) %red(%X{traceId}) %blue(%X{X-NewRelic-Transaction}) %highlight(%-5level) %logger{39} - %msg%n"
    level:
       root: INFO
       com:
