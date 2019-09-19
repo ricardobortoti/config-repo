@@ -1,9 +1,4 @@
 management:
-   metrics:
-      export:
-         newrelic:
-            account-id: 1261595
-            api-key: avEhQELUWTomj0lVDofLaGpbYJxotsgj
    endpoint:
       health:
          show-details: always
