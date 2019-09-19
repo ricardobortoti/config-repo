@@ -1,3 +1,9 @@
 info:
    author:
       lastname: Souza
+      
+management:
+   endpoint:
+      web:
+         exposure:
+            include: "*"
