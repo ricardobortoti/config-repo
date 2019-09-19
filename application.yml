@@ -1,2 +1,7 @@
 info:
    foo: bar
+
+management:
+   endpoint:
+      health:
+         show-details: always
