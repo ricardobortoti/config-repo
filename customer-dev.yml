@@ -1,6 +1,3 @@
 info:
    author:
       lastname: Souza
-spring:
-   redis:
-      host: host.docker.internal
