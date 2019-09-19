@@ -1,6 +1,3 @@
-info:
-   foo: bar
-
 management:
    endpoint:
       health:
