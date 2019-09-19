@@ -8,8 +8,8 @@ management:
 
 logging:
    pattern:
-      console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %magenta([%thread]) %red(%X{traceID}) %highlight(%-5level) %logger.%M - %msg%n"
+      console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %magenta([%thread]) %red(%X{traceID}) %highlight(%-5level) %logger{39} - %msg%n"
    level:
       root: INFO
       com:
-         example: DEBUG         
+         example: DEBUG
