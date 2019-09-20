@@ -1,3 +1,7 @@
 info:
    author:
       lastname: Souza
+      
+logging:
+   pattern:
+      console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %magenta([%thread]) %red(%X{traceId}) %highlight(%-5level) %logger{39} - %msg%n"     

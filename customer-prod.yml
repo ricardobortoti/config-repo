@@ -3,6 +3,8 @@ info:
       lastname: SOUZA
       
 logging:
+   pattern:
+      console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %X{traceId} %-5level %logger{39} - %msg%n"
    level:
       com:
          example: INFO
