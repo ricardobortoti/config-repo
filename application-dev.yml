@@ -1,0 +1,28 @@
+management:
+   endpoints:
+      web:
+         exposure:
+            include: info,health,metrics,env,loggers
+   metrics:
+      export:
+         simple:
+            enabled: true
+   endpoint:
+      health:
+         show-details: always
+
+logging:
+   pattern:
+      console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %X{traceId} %-5level %logger{39} - %msg%n"
+   level:
+      root: INFO
+      com:
+         example: DEBUG
+         
+keycloak:
+   realm: my-realm
+   auth-server-url: http://host.docker.internal:9191/auth
+   ssl-required: external
+   use-resource-role-mappings: true
+   bearer-only: true
+   principal-attribute: preferred_username
