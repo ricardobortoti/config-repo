@@ -18,3 +18,11 @@ logging:
       root: INFO
       com:
          example: DEBUG
+         
+keycloak:
+   realm: myhelm
+   auth-server-url: http://localhost:9999/auth
+   ssl-required: external
+   use-resource-role-mappings: true
+   bearer-only: true
+   principal-attribute: preferred_username
