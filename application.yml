@@ -21,7 +21,7 @@ logging:
          
 keycloak:
    realm: myhelm
-   auth-server-url: http://localhost:9999/auth
+   auth-server-url: http://localhost:9191/auth
    ssl-required: external
    use-resource-role-mappings: true
    bearer-only: true
