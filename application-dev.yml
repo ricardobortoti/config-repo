@@ -20,10 +20,9 @@ logging:
          example: DEBUG
          
 keycloak:
-   realm: myrealm
+   realm: my-realm
    auth-server-url: http://localhost:9191/auth
    ssl-required: external
    use-resource-role-mappings: true
    bearer-only: true
    principal-attribute: preferred_username
-   resource: test4
