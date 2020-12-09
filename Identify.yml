@@ -4,3 +4,4 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_l0ztD18V1
+user-pool-id: us-east-2_l0ztD18V1          
