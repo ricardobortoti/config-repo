@@ -18,7 +18,9 @@ logging:
       root: INFO
       com:
          example: DEBUG
-         
+cognito:
+  user-pool-id: us-east-2_l0ztD18V1
+
 keycloak:
    realm: my-realm
    auth-server-url: http://localhost:9191/auth
