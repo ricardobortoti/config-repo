@@ -19,7 +19,7 @@ logging:
       com:
          example: DEBUG
 cognito:
-  user-pool-id: us-east-2_l0ztD18V1
+  user-pool-id: us-east-2_NRxSTuiuh
 
 keycloak:
    realm: my-realm
