@@ -20,8 +20,8 @@ logging:
          example: DEBUG
 
 aws:
-   access-key: [awsaccesskey]
-   secret-key: [awssecretkey]
+   access-key: awsaccesskey
+   secret-key: awssecretkey
    cognito:
       user-pool-id: us-east-2_NRxSTuiuh
 
