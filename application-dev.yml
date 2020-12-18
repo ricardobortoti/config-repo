@@ -19,8 +19,11 @@ logging:
       com:
          example: DEBUG
 
-cognito:
-   user-pool-id: us-east-2_NRxSTuiuh
+aws:
+   access-key: [awsaccesskey]
+   secret-key: [awssecretkey]
+   cognito:
+      user-pool-id: us-east-2_NRxSTuiuh
 
 keycloak:
    realm: my-realm
