@@ -18,8 +18,11 @@ logging:
       root: INFO
       com:
          example: DEBUG
-cognito:
-  user-pool-id: us-east-2_NRxSTuiuh
+aws:  
+   access-key: "[accesskey]"
+   secret-key: "[secretkey]"
+   cognito:
+      user-pool-id: us-east-2_NRxSTuiuh
 
 keycloak:
    realm: my-realm
