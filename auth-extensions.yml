@@ -5,7 +5,7 @@ spring:
         jwt:
           issuer-uri: https://cognito-idp.us-east-2.amazonaws.com/us-east-2_NRxSTuiuh
   datasource:
-    url: jdbc:mysql://localhost:3306/defaultdatabase?useSSL=false&useTimezone=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/defaultdatabase?allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=UTC
     username: root
     password: root
 jpa:
